@@ -1,0 +1,32 @@
+{
+  "name": "girls-in-tech",
+  "version": "0.1.0",
+  "description": "Website for Girls in Tech",
+  "main": "source/client.js",
+  "scripts": {
+    "start": "brb serve --config='./webpack.shared.config'",
+    "build": "brb build --config='./webpack.shared.config'",
+    "lint": "brb lint"
+  },
+  "author": "everydayhero",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "prismic-utils": "^3.0.0",
+    "boiler-room-builder": "^1.4.1",
+    "boiler-room-runner": "^1.2.3",
+    "constructicon": "^0.3.1",
+    "cxsync": "^1.0.9",
+    "dotenv-webpack": "^1.4.1",
+    "es6-promise": "^4.0.5",
+    "minimal.css": "^1.0.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-helmet": "^4.0.0",
+    "react-router-redux": "^4.0.8",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "redux-logger": "^2.8.1"
+  }
+}
